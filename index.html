@@ -11,43 +11,71 @@
 <body>
   <header>
     <nav>
-      <ul>
+      <div class="logo">
+        <h1>Portfolio</h1>
+      </div>
+      <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
     </nav>
   </header>
 
   <main>
     <section id="about">
-      <h1>About Me</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam malesuada leo, vitae tincidunt
-        dolor lacinia sed.</p>
+      <div class="content">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam malesuada leo, vitae tincidunt dolor lacinia sed.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="content">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML/CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Java</li>
+        </ul>
+      </div>
     </section>
 
     <section id="projects">
-      <h1>Projects</h1>
-      <div class="project">
-        <h2>Project 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="project">
-        <h2>Project 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="content">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
       </div>
     </section>
 
     <section id="contact">
-      <h1>Contact</h1>
-      <p>Email: info@example.com</p>
-      <p>Phone: 123-456-7890</p>
+      <div class="content">
+        <h2>Contact</h2>
+        <p>Email: info@example.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2023 Programmer Portfolio</p>
   </footer>
+
+  <script src="app.js"></script>
 </body>
 
 </html>
