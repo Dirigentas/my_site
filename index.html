@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Aras Portfolio</title>
 </head>
 
@@ -13,37 +14,37 @@
 
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="#about">About</a></li>
-          <a class="nav-link" href="#projects">Projects</a>
-          <a class="nav-link" href="#contact">Contact</a>
-        </div>
+      <div class="navbar-nav">
+        <a class="nav-link" href="#about">About</a></li>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </div>
+    </div>
     </div>
   </nav>
 
   <main class="py-5">
-    <section id="about" class="">
-      <div class="card">
-        <div class="card-header">
-          About Me
-        </div>
+    <section id="about" class="about">
+
+      <div class="photo mb-5">
+        <img src="./img/20201024.jpg" alt="photo">
+        <a class="concact-me" href="#contact">Contact me</a>
+      </div>
+
+      <div class="card" style="width: 65%">
         <div class="card-body">
           <blockquote class="blockquote mb-0">
+            <p>Hi, I'm Aras</p>
             <ul>
-              <li>As a financial analyst with a deep understanding of finantial markets, I am now embarking on a journey to transition my career to become a web developer.</li>
-              <li>
-                My experience as a financial analyst has taught me the importance of attention to detail, accuracy, and precision, which I believe will be valuable assets in my pursuit of becoming a successful web developer.
-              </li>
-              <li>
-                Through continuous learning, dedicated practice, and embracing new challenges, I am committed to honing my programming skills and building a portfolio that showcases my ability to contribute effectively in the field of web development.
-              </li>
               <li>
                 At the moment I'm a Mentor at Baltic Institute of Technology where I coach students.
+              </li>
+              <li>Preveiously worked as a financial analyst at a bank</li>
+              <li>
+                My experience as a financial analyst has taught me the importance of attention to detail, accuracy, and precision, which I believe will be valuable assets moving forward.
+              </li>
+              <li>
+                Through continuous learning and embracing new challenges, I am committed to honing my programming skills to contribute effectively.
               </li>
             </ul>
           </blockquote>
@@ -55,55 +56,49 @@
       <h2>Projects</h2>
       <div class="row">
 
-        <div class="card m-2" style="width: 18rem;">
+        <a class="card m-2" style="width: 18rem;" href="https://aras.website/travel_agency/public" class="btn btn-primary">
           <img src="./img/travel.jpg" class="card-img-top img-thumbnail" alt="..." style="height: 18rem;">
           <div class=" card-body">
             <h5 class="card-title">Tarvel agency</h5>
             <p class="card-text">Used tools: HTML, CSS, PHP-Laravel</p>
-            <a href="https://aras.website/travel_agency/public" class="btn btn-primary">Check it out</a>
           </div>
-        </div>
-        <div class="card m-2" style="width: 18rem;">
+        </a>
+        <a class="card m-2" style="width: 18rem;" href="https://starkis.lt/" class="btn btn-primary">
           <img src="./img/starkis.png" class="card-img-top img-thumbnail" alt="..." style="height: 18rem;">
           <div class="card-body">
             <h5 class="card-title">Figma design</h5>
             <p class="card-text">Used tools: HTML, CSS, JavaScript</p>
-            <a href="https://starkis.lt/" class="btn btn-primary">Check it out</a>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="card m-2" style="width: 18rem;">
-          <img src="./img/calc.PNG" class="card-img-top img-thumbnail" alt="..." style="height: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Basic calculator</h5>
-            <p class="card-text">Used tools: HTML, CSS, JavaScript</p>
-            <a href="https://dirigentas.github.io/JS_calculator/" class="btn btn-primary">Check it out</a>
-          </div>
-        </div>
+        </a>
 
-        <div class="card m-2" style="width: 18rem;">
+        <a class="card m-2" style="width: 18rem;" href="https://front-end-by-rimantas.github.io/40-grupe-portfolio-personal/" class="btn btn-primary">
           <img src="./img/philip1.png" class="card-img-top img-thumbnail" alt="..." style="height: 18rem;">
           <div class="card-body">
             <h5 class="card-title">Team project which was performed during front-end class</h5>
             <p class="card-text">Used tools: HTML, CSS, JavaScript</p>
-            <a href="https://front-end-by-rimantas.github.io/40-grupe-portfolio-personal/" class="btn btn-primary">Check it out</a>
           </div>
-        </div>
+        </a>
+        <a class="card m-2" style="width: 18rem;" href="https://dirigentas.github.io/JS_calculator/" class="btn btn-primary">
+          <img src="./img/calc.PNG" class="card-img-top img-thumbnail" alt="..." style="height: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Basic calculator</h5>
+            <p class="card-text">Used tools: HTML, CSS, JavaScript</p>
+          </div>
+        </a>
       </div>
     </section>
 
     <section id="contact">
       <div class="card">
-        <div class="card-header">
-          Contact
+        <div class="card-header text-center">
+          Contacts
         </div>
         <div class="card-body">
           <blockquote class="blockquote mb-0">
-            <ul>
-              <li>Email: info@example.com</li>
-              <li>Phone: 123-456-7890</li>
-              <li>Linkedin</li>
+            <ul class="text-center">
+              <div class="mt-3">Email: minelga.aras@gmail.com</div>
+              <div class="mt-3">Phone: +370 681 542 11</div>
+              <div class="mt-3"><a class="bi bi-linkedin" href="https://www.linkedin.com/in/aras-minelga-26342b15b"></a></div>
             </ul>
           </blockquote>
         </div>

@@ -1,0 +1,71 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: inherit;
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(153, 255, 153);
+    border-radius: 3px;
+}
+
+.container {
+    max-width: 1000px;
+}
+.row {
+    justify-content: space-around;
+    gap: 30px;
+}
+h2 {
+    text-align: center;
+}
+
+.navbar > .container-fluid {
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.navbar-nav {
+    flex-direction: row;
+}
+.nav-link {
+    padding: 8px;
+}
+.photo {
+    height: 267px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+li {
+    margin-top: 20px;
+}
+.bi:hover {
+    color: rgb(153, 255, 153);
+    background-color: white;
+}
+.concact-me {
+    font-size: 20px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.concact-me:hover {
+    color: black;
+}
