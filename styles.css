@@ -59,6 +59,10 @@ li {
     color: rgb(153, 255, 153);
     background-color: white;
 }
+.bi-envelope-at:hover,
+.bi-telephone:hover {
+    color: black;
+}
 .concact-me {
     font-size: 20px;
     text-align: center;
