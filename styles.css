@@ -10,6 +10,7 @@ a {
 a:hover {
     background-color: rgb(153, 255, 153);
     border-radius: 3px;
+    color: white;
 }
 
 .container {
@@ -67,7 +68,7 @@ li {
     font-weight: bold;
 }
 .concact-me:hover {
-    color: black;
+    color: white;
 }
 @media (max-width: 600px) {
     li {
