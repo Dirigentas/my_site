@@ -1,0 +1,57 @@
+@import 'about.css';
+@import 'projects.css';
+@import 'contacts.css';
+
+* {
+    /* outline: 1px solid blue; */
+}
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: inherit;
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(153, 255, 153);
+    border-radius: 3px;
+    color: white;
+}
+
+.container {
+    max-width: 1440px;
+}
+.row {
+    justify-content: space-around;
+    gap: 30px;
+}
+h2 {
+    text-align: center;
+}
+
+.navbar > .container-fluid {
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.navbar-nav {
+    flex-direction: row;
+}
+.nav-link {
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media (max-width: 600px) {
+    li {
+        list-style-type: none;
+    }
+    ul,
+    .card-body {
+        padding: 0;
+    }
+}
