@@ -58,6 +58,9 @@
           <img src="./img/travel.jpg" class="card-img-top img-thumbnail" alt="..." style="height: 18rem;">
           <div class="card-body">
             <h5 class="card-title">Tarvel agency</h5>
+            <button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title="My biggest Laravel project: used 2 table relation, SQL, CRUD, MVC architecture, dynamic content">
+              More Details
+            </button>
             <ul class="card-text">
               <li class="mt-2"><img src="./img/capture.jpg"> Laravel</li>
               <li class="mt-2"><img src="./img/capture2.PNG"> JavaScript</li>
@@ -74,7 +77,10 @@
         <div class="card m-2" style="width: 18rem;">
           <img src="./img/starkis.png" class="card-img-top img-thumbnail" alt="..." style="height: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Figma design</h5>
+            <h5 class="card-title">starkis.lt (figma design)</h5>
+            <button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title="I was hired to make a website, which offers to tryout and buy kayak, along side a web designer and their Figma design.">
+              More Details
+            </button>
             <ul class="card-text">
               <li class="mt-2"><img src="./img/capture2.png" alt=""> JavaScript</li>
               <li><i class="fa fa-css3 mt-2"> CSS</i></li>
@@ -91,7 +97,10 @@
         <div class="card m-2" style="width: 18rem;">
           <img src="./img/philip1.png" class="card-img-top img-thumbnail" alt="..." style="height: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Team project</h5>
+            <h5 class="card-title">Personal (team project)</h5>
+            <button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title="This project was developed in a team on Github while I was studying in Baltic Institute of Technology. During the development process we had stand-ups and were using Github's project board.">
+              More Details
+            </button>
             <ul class="card-text">
               <li class="mt-2"><img src="./img/capture2.png" alt=""> JavaScript</li>
               <li><i class="fa fa-css3 mt-2"> CSS</i></li>
@@ -105,6 +114,28 @@
           </div>
         </div>
 
+        <div class="card m-2" style="width: 18rem;">
+          <div style="height: 18rem; display:flex; align-items: center">
+            <img src="./img/bit.png" class="card-img-top img-thumbnail" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">bit.lt (maintaining)</h5>
+            <button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title="Currently, I am maintaining this website by making changes how data should be collected, adjusting flows, adding additional validation, changing score system on tests and more. It was built with php, laravel and wordpress.">
+              More Details
+            </button>
+            <ul class="card-text">
+              <li class="mt-2"><img src="./img/capture2.png" alt=""> JavaScript</li>
+              <li class="mt-2"><img src="./img/capture.jpg"> Laravel</li>
+              <li><i class="fa fa-css3 mt-2"> CSS</i></li>
+              <li><i class="fa fa-html5 mt-2"> HTML</i></li>
+              <li class="mt-2" style="height: 24px;"></li>
+            </ul>
+            <div class="button-flex">
+              <a class="btn btn-outline-success" href="https://bit.lt/">View Project</a>
+              <a class="btn btn-outline-success disabled" href="https://github.com/front-end-by-rimantas/40-grupe-portfolio-personal">View Code</a>
+            </div>
+          </div>
+        </div>
     </section>
 
     <section id="contact">
@@ -127,5 +158,12 @@
       </div>
     </section>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  <script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+</body>
 
 </html>

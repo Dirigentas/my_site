@@ -3,3 +3,10 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-success);
+    font-size: 18px;
+}
+#projects button {
+    width: 100%;
+}
