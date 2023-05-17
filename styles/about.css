@@ -19,3 +19,9 @@
 img {
     border-radius: 50%;
 }
+.concact-me {
+    font-size: 20px;
+    border: solid 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

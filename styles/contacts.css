@@ -1,19 +1,8 @@
-.concact-me {
-    font-size: 20px;
-    text-align: center;
-    border: solid 2px black;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.concact-me:hover {
-    color: white;
-}
 .bi-envelope-at:hover,
 .bi-telephone:hover {
     color: black;
 }
 .bi:hover {
-    color: rgb(153, 255, 153);
+    color: #198754;
     background-color: white;
 }

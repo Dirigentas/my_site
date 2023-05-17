@@ -14,8 +14,8 @@ a {
     color: black;
 }
 
-a:hover {
-    background-color: rgb(153, 255, 153);
+nav .nav-link:hover {
+    background-color: #198754;
     border-radius: 3px;
     color: white;
 }
