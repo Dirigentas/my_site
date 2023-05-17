@@ -26,3 +26,16 @@ img {
     text-transform: uppercase;
     font-weight: bold;
 }
+#about .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about .card {
+    width: 48%;
+}
+@media (max-width: 950px) {
+    #about .card {
+        width: 100%;
+    }
+}

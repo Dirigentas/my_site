@@ -3,7 +3,7 @@
 @import 'contacts.css';
 
 * {
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 html {
     scroll-behavior: smooth;
@@ -50,8 +50,7 @@ ul {
     li {
         list-style-type: none;
     }
-    ul,
-    .card-body {
+    ul {
         padding: 0;
     }
 }
