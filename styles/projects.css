@@ -13,8 +13,14 @@
 #projects .project-photo-frame {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 #projects .project-photo-frame > .photo-size {
     width: auto;
     height: 200px;
+}
+.line {
+    height: 0.9px;
+    width: 100%;
+    background-color: #198754;
 }

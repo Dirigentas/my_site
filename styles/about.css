@@ -44,3 +44,8 @@ img {
 .bold {
     font-weight: bold;
 }
+@media (max-width: 979px) {
+    .hero .mt-5 {
+        margin-top: 1rem !important;
+    }
+}
