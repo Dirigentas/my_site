@@ -10,3 +10,11 @@
 #projects button {
     width: 100%;
 }
+#projects .project-photo-frame {
+    display: flex;
+    align-items: center;
+}
+#projects .project-photo-frame > .photo-size {
+    width: auto;
+    height: 200px;
+}

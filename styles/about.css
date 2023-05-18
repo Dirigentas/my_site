@@ -13,7 +13,6 @@
 }
 @media (max-width: 600px) {
     .photo {
-        /* width: 100px; */
         max-width: 100%;
     }
 }
@@ -38,4 +37,10 @@ img {
     #about .card {
         width: 100%;
     }
+}
+.tools {
+    color: #198754;
+}
+.bold {
+    font-weight: bold;
 }

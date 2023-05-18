@@ -8,6 +8,9 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    font-family: 'Jost', sans-serif;
+}
 
 a {
     text-decoration: inherit;
@@ -49,8 +52,5 @@ ul {
 @media (max-width: 600px) {
     li {
         list-style-type: none;
-    }
-    ul {
-        padding: 0;
     }
 }

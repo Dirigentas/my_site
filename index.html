@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="./font/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
   <title>Aras Portfolio</title>
 </head>
 
@@ -32,19 +35,40 @@
           <img class="photo" src="./img/photoo.jpg">
         </div>
         <a class="concact-me btn btn-outline-success" style="width: 80%" href="#contact">Contact me</a>
+        <a class="concact-me btn btn-outline-success mt-5" style="width: 80%" href="./CV.pdf">Download CV</a>
       </div>
       <div class="card ">
         <div class="card-body">
           <blockquote class="blockquote mb-0">
-            <p>Hi, I'm Aras</p>
+            <p class="bold">Hi, I'm Aras</p>
             <ul>
-              <li class="mt-5">
+              <li class="mt-3">
                 Mentor at Baltic Institute of Technology where I coach students.
               </li>
-              <li class="mt-5">Preveiously worked as a financial analyst at a bank</li>
-              <li class="mt-5">
+              <li class="mt-3">Preveiously worked as a financial analyst at a bank</li>
+              <li class="mt-3">
                 High attention to details, eager to learn
               </li>
+            </ul>
+            <p class="mt-5 bold">Skills:</p>
+            <ul>
+              <li class="mt-3"> PHP + Laravel</li>
+              <li class="mt-3">HTML5 + CSS3</li>
+              <li class="mt-3">JavaScript + React</li>
+            </ul>
+            <p class="mt-5 bold">Education:</p>
+            <ul>
+              <li class="mt-4">Baltic Institute of Technology</li>
+              <ul>
+                <li>Full-stack development</li>
+                <li>PHP, Laravel, JavaScript, React, SQL</li>
+                <li>Grade: 9</li>
+              </ul>
+              <li class="mt-4">Klaipeda State College</li>
+              <ul>
+                <li>Finance</li>
+                <li>Grade: 10</li>
+              </ul>
             </ul>
           </blockquote>
         </div>
@@ -52,10 +76,12 @@
     </section>
 
     <section id="projects" class="py-5">
-      <h2>Projects</h2>
+      <h2 class="mb-5">Portfolio Projects</h2>
       <div class="row">
         <div class="card m-2" style="width: 18rem;">
-          <img src="./img/travel.jpg" class="card-img-top img-thumbnail" alt="..." style="height: 18rem;">
+          <div class="project-photo-frame">
+            <img src="./img/travel.png" class="card-img-top img-thumbnail photo-size">
+          </div>
           <div class="card-body">
             <h5 class="card-title">Tarvel agency</h5>
             <button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title="My biggest Laravel project: used 2 table relation, SQL, CRUD, MVC architecture, dynamic content">
@@ -75,7 +101,9 @@
         </div>
 
         <div class="card m-2" style="width: 18rem;">
-          <img src="./img/starkis.png" class="card-img-top img-thumbnail" alt="..." style="height: 18rem;">
+          <div class="project-photo-frame">
+            <img src="./img/starkis.png" class="card-img-top img-thumbnail photo-size">
+          </div>
           <div class="card-body">
             <h5 class="card-title">starkis.lt (figma design)</h5>
             <button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title="I was hired to make a website, which offers to tryout and buy kayak, along side a web designer and their Figma design.">
@@ -95,7 +123,9 @@
         </div>
 
         <div class="card m-2" style="width: 18rem;">
-          <img src="./img/philip1.png" class="card-img-top img-thumbnail" alt="..." style="height: 18rem;">
+          <div class="project-photo-frame">
+            <img src="./img/personal.png" class="card-img-top img-thumbnail photo-size">
+          </div>
           <div class="card-body">
             <h5 class="card-title">Personal (team project)</h5>
             <button type="button" class="btn btn-success" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title="This project was developed in a team on Github while I was studying in Baltic Institute of Technology. During the development process we had stand-ups and were using Github's project board.">
@@ -115,8 +145,8 @@
         </div>
 
         <div class="card m-2" style="width: 18rem;">
-          <div style="height: 18rem; display:flex; align-items: center">
-            <img src="./img/bit.png" class="card-img-top img-thumbnail" alt="...">
+          <div class="project-photo-frame">
+            <img src="./img/bit.png" class="card-img-top img-thumbnail photo-size">
           </div>
           <div class="card-body">
             <h5 class="card-title">bit.lt (maintaining)</h5>
@@ -128,7 +158,6 @@
               <li class="mt-2"><img src="./img/capture.jpg"> Laravel</li>
               <li><i class="fa fa-css3 mt-2"> CSS</i></li>
               <li><i class="fa fa-html5 mt-2"> HTML</i></li>
-              <li class="mt-2" style="height: 24px;"></li>
             </ul>
             <div class="button-flex">
               <a class="btn btn-outline-success" href="https://bit.lt/">View Project</a>
@@ -157,9 +186,10 @@
         </div>
       </div>
     </section>
+    <footer class="text-center text-muted">Copyright © 2023. All rights reserved.</footer>
   </main>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   <script>
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
