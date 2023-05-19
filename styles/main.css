@@ -28,7 +28,7 @@ nav .nav-link:hover {
 }
 .row {
     justify-content: space-around;
-    gap: 30px;
+    gap: 40px;
 }
 h2 {
     text-align: center;
